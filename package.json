@@ -1,10 +1,10 @@
 {
   "name": "tap-nyc",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "description": "nyc compatible TAP output formatter",
   "main": "index.js",
   "scripts": {
-    "test": ""
+    "test": "npx tape"
   },
   "repository": {
     "type": "git",
@@ -23,18 +23,19 @@
     "url": "https://github.com/MegaArman/tap-nyc/issues"
   },
   "dependencies": {
-    "chalk": "^1.0.0",
-    "duplexer": "^0.1.1",
-    "figures": "^1.4.0",
-    "pretty-ms": "^2.1.0",
-    "repeat-string": "^1.5.2",
-    "tap-out": "^1.4.1",
-    "through2": "^2.0.0"
+    "chalk": "^4.1.2",
+    "duplexer": "^0.1.2",
+    "figures": "^4.0.0",
+    "pretty-ms": "^7.0.1",
+    "repeat-string": "^1.6.1",
+    "tap-out": "^3.0.0",
+    "through2": "^4.0.2"
   },
   "bin": {
     "tap-nyc": "bin/cmd.js"
   },
   "devDependencies": {
-    "tapes": "^2.0.0"
+    "eslint": "^8.0.1",
+    "tapes": "^4.1.0"
   }
 }
